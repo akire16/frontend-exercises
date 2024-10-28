@@ -3,14 +3,47 @@
     --text-input-field: #f7f7f7;
     --primary-color: #fa9c87;
     --primary-color-hover: #fa9179;
+    --secondary-color-hover: #fcedea;
     --white: #ffffff;
     --black: #000000;
     --sm: 14px;
     --md: 16px;
-    --lg: 16px;
+    --lg: 18px;
 }
 
 body {
     font-family: "Quicksand", sans-serif;
     background: #f1f1f1;
+    margin: 0;
+}
+
+/*Buttons*/
+.button {
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    margin-top: 14px;
+}
+
+.primary-button {
+    background-color: var(--primary-color);   
+    color: var(--white);   
+}
+
+.primary-button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.secondary-button {
+    background-color: var(--white);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.secondary-button:hover {
+    background-color: var(--secondary-color-hover);
 }
