@@ -1,0 +1,31 @@
+.form-container {
+    justify-items: center;
+}
+
+.email-icon {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.email-icon img {
+    width: 80px;
+}
+
+.resend {
+    font-size: var(--sm); 
+}
+
+.resend span {
+    color: var(--very-light-pink);
+}
+
+.resend a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
