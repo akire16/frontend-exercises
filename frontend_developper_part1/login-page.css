@@ -1,0 +1,15 @@
+.primary-button {
+    margin-bottom: 24px;
+}
+
+.form a {
+    color: var(--primary-color);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+
+.input-email {
+    margin-bottom: 22px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./new-password.css">
+    <link rel="stylesheet" href="./login-page.css">
+  </head>
+  <body>
+    <div class="login">
+      <div class="form-container">
+        <img src="./logos/yard_logo.svg" alt="logo" class="logo" />
+        <img src="./logos/sm_yard_logo.svg" alt="logo" class="sm-logo" />
+
+        <form action="/" class="form">
+          <label for="email" class="label">Email Address</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="example@example.com"
+            class="input input-email"
+          />
+          <label for="password" class="label">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="*****"
+            class="input input-password"
+          />
+          <input type="submit" value="login" class="button primary-button">
+          <a href="/">Forgot password</a>
+        </form>
+
+        <button class="button secondary-button">Sign up</button>
+      </div>
+    </div>
+  </body>
+</html>
