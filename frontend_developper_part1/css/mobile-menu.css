@@ -1,0 +1,48 @@
+@import url(style.css);
+
+.mobile-menu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile-menu ul {
+    padding: 0;
+    margin: 30px;
+    list-style: none;
+}
+
+.mobile-menu div ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu div ul li {
+    margin-bottom: 24px;
+}
+
+.mobile-menu div ul li:last-child {
+    margin-bottom: 35px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile-menu a:hover {
+    color: var(--primary-color);
+}
+
+.mobile-menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.mobile-menu .sign-up {
+    color: var(--primary-color);
+    font-size: var(--sm);
+}

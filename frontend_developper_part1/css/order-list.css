@@ -1,0 +1,20 @@
+@import url(style.css);
+@import url(order.css);
+
+.order {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    grid-template-columns: auto 1fr auto;
+    margin-bottom: 0;
+}
+
+.order:hover {
+    background-color: var(--text-input-field);
+}
+
+.order img {
+    width: 13px;
+    height: 13px;
+}
+
