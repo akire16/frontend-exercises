@@ -1,0 +1,27 @@
+@import url(style.css);
+@import url(order.css);
+
+.product-detail {
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title-container img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+}
+
+.title {
+    font-size: var(--lg);
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.order {
+    margin-bottom: 0;
+}

@@ -28,6 +28,7 @@ body {
     margin-top: 14px;
 }
 
+/*Primary*/
 .primary-button {
     background-color: var(--primary-color);   
     color: var(--white);   
@@ -37,6 +38,7 @@ body {
     background-color: var(--primary-color-hover);
 }
 
+/*Secondary*/
 .secondary-button {
     background-color: var(--white);
     border: 1px solid var(--primary-color);
@@ -45,4 +47,15 @@ body {
 
 .secondary-button:hover {
     background-color: var(--secondary-color-hover);
+}
+
+/*Add*/
+.add-to-cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart-button img {
+    margin-right: 10px;
 }

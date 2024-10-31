@@ -85,17 +85,6 @@
     margin-bottom: 30px;
 }
 
-/*Button add*/
-.add-to-cart-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.add-to-cart-button img {
-    margin-right: 10px;
-}
-
 @media (max-width: 640px) {
     .product-detail {
         width: 100%;
