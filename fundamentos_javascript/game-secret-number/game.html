@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secret number</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div id="game">
+      <div>
+        <h2>Secret Number 🔍</h2>
+        <p>Guess the secret number from 1 to 10</p>
+        <label for="game">
+          <input type="number" id="playerNumber" min="1" max="10" />
+          <input class="button" type="button" value="Try Your Luck!" onclick="checkNumber()" />
+        </label>
+        <p id="message"></p>
+      </div>
+    </div>
+    <script src="./game.js"></script>
+  </body>
+</html>
