@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/akire16.github.io/frontend-exercises/react-intro/static/css/main.163ea4e6.css",
-    "main.js": "/akire16.github.io/frontend-exercises/react-intro/static/js/main.26fb1ced.js",
-    "static/media/good.png": "/akire16.github.io/frontend-exercises/react-intro/static/media/good.ace4804e978344740bc7.png",
-    "static/media/warning.png": "/akire16.github.io/frontend-exercises/react-intro/static/media/warning.57673dee06b218e81cb8.png",
-    "static/media/pencil.png": "/akire16.github.io/frontend-exercises/react-intro/static/media/pencil.c36fac70096571cebba1.png",
-    "index.html": "/akire16.github.io/frontend-exercises/react-intro/index.html",
-    "main.163ea4e6.css.map": "/akire16.github.io/frontend-exercises/react-intro/static/css/main.163ea4e6.css.map",
-    "main.26fb1ced.js.map": "/akire16.github.io/frontend-exercises/react-intro/static/js/main.26fb1ced.js.map"
+    "main.css": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/css/main.163ea4e6.css",
+    "main.js": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/js/main.f0e4993c.js",
+    "static/media/good.png": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/media/good.ace4804e978344740bc7.png",
+    "static/media/warning.png": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/media/warning.57673dee06b218e81cb8.png",
+    "static/media/pencil.png": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/media/pencil.c36fac70096571cebba1.png",
+    "index.html": "/akire16.github.io/frontend-exercises/tree/main/react-intro/index.html",
+    "main.163ea4e6.css.map": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/css/main.163ea4e6.css.map",
+    "main.f0e4993c.js.map": "/akire16.github.io/frontend-exercises/tree/main/react-intro/static/js/main.f0e4993c.js.map"
   },
   "entrypoints": [
     "static/css/main.163ea4e6.css",
-    "static/js/main.26fb1ced.js"
+    "static/js/main.f0e4993c.js"
   ]
 }
